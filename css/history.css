@@ -1,0 +1,104 @@
+@font-face{
+	font-family: 'hp';
+	src: url('../Fonts/10467.ttf') format('woff');
+}
+*{
+	font-family: 'hp', serif;
+	margin: 0;
+	border: 0;
+}
+.line1{
+	height: 9vw;
+	background-color: #290d3e;
+	opacity: 0.95 0 black;
+	box-shadow:  0 0 20px #290d3e;
+}
+.div-all{
+	background-color: black;
+	height: 100vh;
+	background-position:  
+	 r;
+	background-size: cover;
+	opacity: 0.95;
+	background-color: #372D3B;
+}
+	
+.logo{
+	float: left;
+	margin-top: 1vw;
+	margin-left: 1vw;
+}
+.txt{
+	font-size: 90px;
+	color:#ebd759;
+	margin-left: 20vw;
+}
+.bot{
+	width: 8vw;
+	padding: 1.5vh 0;
+	background-color: #990900;
+	border-radius: 10%;
+	float: left;
+	text-align: center;
+	box-shadow:  0 0 20px #880800;
+	margin-top: 2.5vw;
+	margin-left: 30vw ;
+	color:#ebd759;
+	font-size: 24px;
+}
+.div-blok{
+	float: left;
+}
+.kid{
+	width: 25%;
+	height: 60vh;
+	margin-left: 5%;
+	margin-top: 5vh;
+	float: left;
+}
+.img1{
+	background-image: url(../img/gerb.jpg);
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 5%;
+	box-shadow: 0 0 20px #B600FF55;
+	width: 30%;
+}
+.line2{
+	height: 71vh;
+}
+.txt-kid{
+	text-align: center;
+	color: #ebd759;
+	background-color: #90A897;
+	border-radius: 20%;
+	box-shadow: 0 0 20PX #90A89755; 
+	margin-bottom:4vh;
+	font-size: 16px;
+	width: 100%;
+	height: 46vh;
+}
+
+.txt-head{
+	text-align: center;
+	color: #ebd759;
+	background-color: #90A897;
+	border-radius: 20%;
+	box-shadow: 0 0 20PX #90A89755; 
+	margin-bottom:5vh;
+	font-size: 48px;
+	width: 100%;
+	height: 10vh;
+
+
+}
+.img2{
+	background-image: url("../img/hog his.jpg");
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 5%;
+	box-shadow: 0 0 20px #B600FF55;
+	float: left;
+}

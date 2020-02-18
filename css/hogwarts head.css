@@ -1,0 +1,117 @@
+@font-face{
+	font-family: 'hp';
+	src: url('../Fonts/10467.ttf') format('woff');
+}
+*{
+	font-family: 'hp', serif;
+	margin: 0;
+	border: 0;
+}
+.line1{
+	height: 9vw;
+	background-color: #290d3e;
+	opacity: 0.95 0 black;
+	box-shadow:  0 0 20px #290d3e;
+}
+.all{
+	background-color: black;
+	background-image: url(../img/les.jpg);
+	height: 100vh;
+	background-position:center;
+	background-size: cover;
+	opacity: 0.95;
+}
+	
+.logo{
+	float: left;
+	margin-top: 1vw;
+	margin-left: 1vw;
+}
+.txt{
+	font-size: 99px;
+	color:#ebd759;
+	margin-left: 20vw;
+}
+.bot{
+	width: 8vw;
+	padding: 1.5vh 0;
+	background-color: #990900;
+	border-radius: 10%;
+	float: left;
+	text-align: center;
+	box-shadow:  0 0 20px #880800;
+	margin-top: 2.5vw;
+	margin-left: 35vw ;
+	color:#ebd759;
+	font-size: 24px;
+}
+.div-blok{
+	float: left;
+}
+.div-knp1{
+	width: 33%;
+	margin-left: 5%;
+	margin-top: 5vh;
+	background-image: url("../img/history.png");
+}
+.div-knp2{
+	width: 21%;
+	margin-left: 1%;
+	margin-top: 5vh;
+	background-image: url("../img/headest.jpg");
+}
+.div-knp3{
+	width: 30%;
+	margin-left: 1%;
+	margin-top: 5vh;
+	background-image: url("../img/direkt.jpg");
+}
+.div-knp4{
+	width: 28%;
+	clear: both;
+	margin-left: 5%;
+	margin-top: 2vh;
+	background-image: url("../img/potion.jpg");
+}
+.div-knp5{
+	width: 57%;
+	margin-left: 1%;
+	margin-top: 2vh;
+	background-image: url("../img/fakul.jpg");
+}	
+.opt{
+	position: relative;
+	transition:  color 0.1s ease-in;
+	background-position:center;
+	background-size: cover;
+	z-index: 1;
+	float: left;
+	padding: 13vh 0;
+	color:#ebd759;
+	text-align: center;
+	border-radius: 5%; 
+	font-size: 22px;
+}
+.div-index{
+	position: relative;
+	z-index: 2;
+}
+.opt:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+	border-radius: 5%; 
+}
+.opt:hover::before{
+	background-color: black;
+	opacity: 0.4;
+}
+.opt:hover{
+	color:orange;
+}

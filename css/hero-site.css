@@ -1,0 +1,213 @@
+@font-face{
+	font-family: 'hp';
+	src: url('../Fonts/10467.ttf') format('woff');
+}
+*{
+	font-family: 'hp', serif;
+	margin: 0;
+	border: 0;
+}
+.fon-img{
+	background-image: url("../img/hero-fon.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 135vh;
+	background-attachment: fixed;
+}
+.line1{
+	height: 10vw;
+	min-height: 10vw;
+	background-color: #550055;
+	opacity: 0.8;
+	box-shadow:  0 0 20px #880800;
+}
+.logo{
+	padding: 0.2vw;
+	float: left;
+
+}
+.blok-hero{
+	font-size: 114px;
+	color: #ebd759;
+	float: left;
+	margin: auto;
+	margin-left: 10vw;
+}
+.blok-bot{
+	width: 9vw;
+	height: 7vw;
+	background-color: #990900;
+	border-radius: 10%;
+	float: right;
+	margin-top: 1vw;
+	margin-right: 1vw;
+	box-shadow:  0 0 20px #880800;
+	font-size: 24px;
+}
+.href{
+	text-decoration: none;
+	color: #ebd759;
+}
+.tvt{
+	text-align: center;
+	padding-top: 2.5vw;
+}
+.blok-bot:hover{
+	animation: bottom 4s infinite ease-in-out;
+}
+@keyframes bottom{
+	50%{
+	width: 11vw;
+	height: 8vw;
+ 	background-color: #ff00b3;
+ 	box-shadow: 0 0 10px ;
+	}
+}
+.img{
+	width: 10vw;
+	height: 12.9vw;
+	padding-top: 1%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+
+.img::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.3;
+	z-index: 1;
+	border-radius: 10%
+}
+.harry{
+	border-radius: 10%;
+	background-image: url("../img/hero harry.jpg");
+}
+.line2{
+	height: 15vw;
+	clear: both;
+}
+.line3{
+	height: 15vw;
+	clear: both;
+}
+.line4{
+	height: 15vw;
+	clear: both;
+}
+.blok{
+	width: 10vw;
+	height: 12.9vw;
+	margin: auto;
+	margin-left: 4vw;
+	float: left;
+	margin-top: 1.5vw;
+	background-color: #403b3b55;
+	border-radius: 10%;
+	box-shadow: 10px 0 10px #b52eb855;
+	transition: 1s;
+}
+.krn{
+	margin-left: 17vw;
+}
+
+.txt{
+	padding-left: 0.5vw;
+	color: #ebd759;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	opacity: 0;
+	transition: opacity 0.2s ease-in;
+	padding-top: 9vw;
+}
+.ld{
+	box-shadow: 10px 0 15px #a31e0a55
+}
+.glv{
+	box-shadow: 10px 0 15px #c7b04c55;
+}
+.dr{
+	box-shadow: 10px 0 15px #48e84d55;
+}
+.uch{
+	box-shadow: 10px 0 15px #4066bd55;
+}
+.blok:hover{
+	animation: blokc 3s infinite ease-in-out;
+}
+.blok:hover .txt{
+	opacity: 1;
+}
+.blok:hover .img::before{
+	opacity: 0.1;
+}
+@keyframes blokc{
+	50%{
+ 	box-shadow: 10px 0 15px #78cacf55;
+	}
+}
+.ger{
+	background-image: url("../img/hero germiona.jpg");
+	border-radius: 10%;
+}
+.ron{
+	background-image: url("../img/hero ronald.jpg");
+	border-radius: 10%
+}
+.hag{
+	background-image: url("../img/hero hagrid.jpg");
+	border-radius: 10%;
+}
+.sir{
+	background-image: url("../img/hero sirius.jpg");
+	border-radius: 10%;
+}
+.jin{
+	background-image: url("../img/hero jini.jpg");
+	border-radius: 10%;
+}
+.nevel{
+	background-image: url("../img/hero nevel.jpg");
+	border-radius: 10%;
+}
+.albus{
+	background-image: url("../img/hero dambldor.jpg");
+	border-radius: 10%;
+}
+.sev{
+	background-image: url("../img/hero severus.jpg");
+	border-radius: 10%;
+}
+.min{
+	background-image: url("../img/minerva.jpg");
+	border-radius: 10%;
+}
+.alstr{
+	background-image: url("../img/hero grum.jpg");
+	border-radius: 10%;
+}
+.drako{
+	background-image: url("../img/hero drako.jpg");
+	border-radius: 10%;
+}
+.volen{
+	background-image: url("../img/hero volendemort.jpg");
+	border-radius: 10%;
+}
+.bella{
+	background-image: url("../img/hero belatrisa.jpg");
+	border-radius: 10%;
+}
+.malf{
+	background-image: url("../img/hero malfoy.jpg");
+	border-radius: 10%;
+}

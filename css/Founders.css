@@ -1,0 +1,136 @@
+@font-face{
+	font-family: 'hp';
+	src: url('../Fonts/10467.ttf') format('woff');
+}
+*{
+	font-family: 'hp', serif;
+	margin: 0;
+	border: 0;
+}
+body{
+	overflow-y: hidden;
+}
+.line1{
+	height: 9vw;
+	background-color: #290d3e;
+	opacity: 0.95 0 black;
+	box-shadow:  0 0 20px #290d3e;
+}
+.div-all{
+	height: 100vh;
+	opacity: 0.95;
+	background-image: url("../img/les.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+	
+.logo{
+	float: left;
+	margin-top: 1vw;
+	margin-left: 1vw;
+}
+.txt{
+	font-size: 90px;
+	color:#ebd759;
+	margin-left: 5vw;
+	float: left;
+}
+.div-blok{
+	float: left;
+}
+.bot{
+	width: 8vw;
+	padding: 1.5vh 0;
+	background-color: #990900;
+	border-radius: 10%;
+	float: right;
+	text-align: center;
+	box-shadow:  0 0 20px #880800;
+	margin-top: 2.5vw;
+	color:#ebd759;
+	font-size: 24px;
+	margin-right: 1vw;
+}
+
+.div-txt{
+	width: 62vw;
+	margin-left: 19vw;
+	margin-top: 3vw;
+	font-size: 24px;
+	color:#ebd759; 
+	text-align: center;
+}
+.div-bloc{
+	width: 20vw;
+	margin-left: 1vw;
+	background-color:red;
+	height: 60vh;
+	float: left;
+	border-radius: 10%;
+	box-shadow: 10px 0 10px black;
+	position: relative;
+	transition:  color 0.1s ease-in;
+	background-position:center;
+	background-size: cover;
+	z-index: 1;
+	color:#ebd759;
+	text-align: center; 
+	font-size: 22px;
+	margin-top: 5vh;
+}
+.krn{
+	margin-left: 8.5vw;
+}
+.god{
+	background-image: url(../img/godric.jpg);
+}
+.sal{
+	background-image: url(../img/salazar.jpg);
+}
+.kan{
+	background-image: url(../img/kokte.jpg);
+}
+.pen{
+	background-image: url(../img/penelop.jpg);
+}
+.div-index{
+	z-index: 2;
+	position: relative;
+}
+.div-bloc:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+	border-radius: 10%; 
+}
+.div-bloc:hover::before{
+	background-color: black;
+	opacity: 0.4;
+}
+h1{
+	padding-top: 45vh;
+	font-size: 30px;
+	transition:  padding 0.5s ease-in;
+}
+p{
+	transition: all 0.5s ease-in;
+	opacity: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.div-bloc:hover p{
+	color:#ebd759;
+	opacity: 1;
+	padding-top: 5vh;
+}
+.div-bloc:hover h1{
+	padding-top:1vh;
+}

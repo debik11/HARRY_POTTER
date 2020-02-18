@@ -1,0 +1,42 @@
+.div-img{
+	height: 78vh;
+	width: 28vw;
+	box-shadow: 0 0 20px #0000ff55;
+	margin-top:10vh;
+	margin-left: 15vh;
+	margin-right: 0;
+	border-radius: 15%;
+	background-image: url("../img/hero minerva.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-top: 2vw;
+	 
+}
+.div-txt1{
+	height: 10vh;
+	width: 28vw;
+	color:  #ebd759;
+	background-color: #972B5D;
+	border-radius: 30%;
+	box-shadow: 0 0 20px #0000ff55;
+	font-size: 26px;
+	padding-top: 2vw;
+	text-align: center;
+
+}
+.div-txt2{
+	padding: 3vh 2vw;
+	height: 54vh;
+	width: 24vw;
+	clear: both;
+	margin-top: 10vh;
+	color:  #ebd759;
+	background-color: #972B5D;
+	border-radius: 15%;
+	box-shadow: 0 0 20px #0000ff55;
+	font-size: 18px;
+	margin-top: 3vw;
+	text-align: center;
+	
+
+}
